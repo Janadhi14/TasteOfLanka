@@ -1,1 +1,0 @@
-# TasteOfLanka website
