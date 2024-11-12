@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenlands Cafe & Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1>Greenlands Cafe</h1>
+      <ul>
+        <li><a href="#welcome">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Welcome Section -->
+  <section id="welcome">
+    <h2>Welcome to Greenlands Cafe & Restaurant</h2>
+    <p>Enjoy our delightful cuisines crafted with the freshest ingredients.</p>
+    <button onclick="scrollToMenu()">View Menu</button>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Special Latte</h3>
+        <p>Aromatic blend of coffee beans and milk.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Spicy Chicken Wrap</h3>
+        <p>Succulent chicken with a spicy kick.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Classic Pancakes</h3>
+        <p>Fluffy pancakes served with syrup and butter.</p>
+      </div>
+      <!-- Add more items as needed -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a family-owned cafe known for delicious food and warm hospitality.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm" onsubmit="submitForm(event)">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="successMessage" style="display: none;">Thank you! Your message has been sent.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
