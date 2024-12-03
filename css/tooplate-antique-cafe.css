@@ -20,7 +20,7 @@ p a:hover {
 	color: #9FF;
 }
 
-#about p a { color: #066; }
+#about p a { color: rgb(255, 213, 0); }
 #about p a:hover { color: #F36; }
 
 #contact p a { color: #066; }
@@ -45,7 +45,7 @@ footer span a { color: #FFF; }
 }
 
 .tm-text-gold {
-    color: #CC9966;
+    color: #ffffff;
 }
 
 .tm-text-brown {
@@ -65,11 +65,11 @@ a.tm-bg-green:hover {
 }
 
 .tm-bg-green {
-    background-color: #006666;
+    background-color: #175500;
 }
 
 .tm-border-gold {
-    border-color: #CC9966;
+    border-color: #ffffff;
 }
 
 .tm-intro-width {
@@ -83,7 +83,7 @@ a.tm-bg-green:hover {
 .input:focus {
     outline: none !important;
     border:1px solid #CC9966;
-    box-shadow: 0 0 10px #b67533;
+    box-shadow: 0 0 10px #e0e0e0;
 }
 
 input::placeholder,
@@ -118,7 +118,7 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 
 #tm-nav li a.current,
 #tm-nav li a:hover {
-      border-bottom: 4px solid #CC9966;
+      border-bottom: 4px solid #ffffff;
 }
 
 .tm-text-2xl {
